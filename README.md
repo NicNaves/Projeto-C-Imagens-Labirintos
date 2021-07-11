@@ -4,6 +4,7 @@ Desenvolvimento de um programa em C que manipula imagens em tons de cinza vista 
 Funcionalidades: converte txt para imm(imagem em formato de matriz), thresholding, detecta componentes conexos, resolução de labirinto.
 
 Para Executalo compilar immc.c juntamente com stack.c e matriz.c
+
 gcc imm.c matriz.c stack.c -o imm
 
 imm -open file.txto ->  Abre uma imagem (formato texto) e mostra os valores dos pixels na tela
